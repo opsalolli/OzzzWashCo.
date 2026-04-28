@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ozzz App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      background: #111;
+      color: white;
+      padding: 20px;
+    }
+    button {
+      padding: 15px;
+      font-size: 18px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      background: #00ff99;
+      color: black;
+    }
+    input {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+      width: 80%;
+      border-radius: 8px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Ozzz Window App</h1>
+
+  <h3>Quote Calculator</h3>
+
+  <input id="windows" type="number" placeholder="Number of windows">
+  <input id="price" type="number" placeholder="Price per window">
+
+  <br>
+  <button onclick="calculate()">Calculate</button>
+
+  <h2 id="result">$0</h2>
+
+  <script>
+    function calculate() {
+      let windows = document.getElementById("windows").value;
+      let price = document.getElementById("price").value;
+      let total = windows * price;
+      document.getElementById("result").innerText = "$" + total;
+    }
+  </script>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+  <title>Ozzz App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      background: #111;
+      color: white;
+      padding: 20px;
+    }
+    button {
+      padding: 15px;
+      font-size: 18px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      background: #00ff99;
+      color: black;
+    }
+    input {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+      width: 80%;
+      border-radius: 8px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Ozzz Window App</h1>
+
+  <h3>Quote Calculator</h3>
+
+  <input id="windows" type="number" placeholder="Number of windows">
+  <input id="price" type="number" placeholder="Price per window">
+
+  <br>
+  <button onclick="calculate()">Calculate</button>
+
+  <h2 id="result">$0</h2>
+
+  <script>
+    function calculate() {
+      let windows = document.getElementById("windows").value;
+      let price = document.getElementById("price").value;
+      let total = windows * price;
+      document.getElementById("result").innerText = "$" + total;
+    }
+  </script>
+
+</body>
+</html>
